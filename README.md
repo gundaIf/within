@@ -20,7 +20,7 @@ The vocabulary was tuned to avoid two failure modes: names that sound auto-gener
 
 Open `index.html`. That's it. One file, no build step, no dependencies.
 
-Or visit the hosted version: [**deeeen.xyz/within**](https://deeeen.xyz/within)
+Find other similar ones: [**deeeen.xyz/within**](https://deeeen.xyz/)
 
 ## Configuration
 

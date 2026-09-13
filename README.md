@@ -2,7 +2,7 @@
 
 Every image carries a palette it never shows you.
 
-**Within** finds the colours inside any image, names them after real pigments, and returns them to you. Client-side, private, no server — the image never leaves your browser.
+**Within** finds the colours inside any image, names them after real pigments, and returns them to you. Client-side, private, no server - the image never leaves your browser.
 
 ## What it does
 
@@ -12,7 +12,7 @@ You can adjust the count (4–12), click any swatch to copy the hex, and export 
 
 ## How the naming works
 
-No API, no LLM. A hand-built dictionary of pigment names — sourced from oil painting, printmaking, and textile traditions — each pinned to a Lab colour coordinate. Every extracted colour is matched to its nearest pigment by perceptual distance (CIE76), with lightness and chroma modifiers (Dark, Light, Muted) applied when the match drifts. Duplicates within a palette get roman numerals (Slate Grey I, Slate Grey II), the way paint manufacturers do it.
+No API, no LLM. A hand-built dictionary of pigment names — sourced from oil painting, printmaking, and textile traditions, each pinned to a Lab colour coordinate. Every extracted colour is matched to its nearest pigment by perceptual distance (CIE76), with lightness and chroma modifiers (Dark, Light, Muted) applied when the match drifts. Duplicates within a palette get roman numerals (Slate Grey I, Slate Grey II), the way paint manufacturers do it.
 
 The vocabulary was tuned to avoid two failure modes: names that sound auto-generated (*Color 7*, *Blue-Gray*) and names that sound like a candle brand (*Midnight Whisper*, *Autumn Dream*). The register is painterly, not poetic.
 
